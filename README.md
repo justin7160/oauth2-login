@@ -46,6 +46,11 @@
 
    - 應用程式將在 `http://localhost:8080` 運行。
 
+## 新增功能（2025-07-10）
+
+- **Redis Session 儲存**：整合 Spring Session 與 Redis，將使用者登入 session 儲存在 Redis 中，支援多實例架構並提升 session 穩定性。  
+
+
 ## 使用說明
 
 - **登入流程**：
