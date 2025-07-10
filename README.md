@@ -15,7 +15,7 @@
 
 ## 安裝與執行
 
-1. **克隆儲存庫**：
+1. **clone專案**：
 
    ```bash
    git clone https://github.com/justin7160/oauth2-login.git
@@ -56,6 +56,7 @@
 ## 流程
 
 第一張：從 `http://localhost:8080` 進入後導向 Google OAuth2.0 登入。
+![image](https://github.com/user-attachments/assets/c72e6285-4f64-4333-9406-8f4b63438d13)
 
 ![image](https://github.com/user-attachments/assets/2a00a6e1-90ec-4fa5-aea6-3877fbf00ce3)
 
@@ -64,8 +65,7 @@
 ![image](https://github.com/user-attachments/assets/d1d3fd57-5f9d-4360-9729-c6efab5c75f7)
 
 第三張：返回專案本身，顯示使用者名稱。
-
-![image](https://github.com/user-attachments/assets/766e25ab-bc4a-455d-953b-e1042baf94ea)
+![image](https://github.com/user-attachments/assets/e777894a-2ca8-40e1-a53c-ecf306a60864)
 
 
 
