@@ -7,10 +7,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class HomeController {
+public class UserController {
 
-    @GetMapping("/")
-    public String index() {
-        return "index";
+    @GetMapping("/user")
+    public String user(@AuthenticationPrincipal OAuth2User oAuth2User, Model model) {
+        model.addAttribute("name", oAuth2User.getAttribute("name"));
+        return "user";
     }
 }
